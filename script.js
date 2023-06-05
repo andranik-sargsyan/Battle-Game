@@ -51,7 +51,7 @@ for (var i = 1; i <= 4; i++) {
         y: enemyType.radius,
         angle: (5 + getRandomInt(3)) * Math.PI / 4,
         radius: enemyType.radius,
-        speed: 2,
+        speed: 1,
         bullets: [],
         hp: enemyType.hp,
         image: document.createElement("img"),
